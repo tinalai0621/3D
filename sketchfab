@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的 3D 模型展示 - Sketchfab</title>
+  <style>
+    body {
+      font-family: "Microsoft JhengHei", Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f4f4f4;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 650px;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>我的 3D 模型展示</h1>
+  
+   <div class="sketchfab-embed-wrapper">
+    <iframe
+      title="PRAMY定妝噴霧"
+      frameborder="0"
+      allowfullscreen 
+      mozallowfullscreen="true" 
+      webkitallowfullscreen="true" 
+      allow="autoplay; fullscreen; xr-spatial-tracking" 
+      xr-spatial-tracking
+      execution-while-out-of-viewport
+      execution-while-not-rendered 
+      web-share 
+      src="https://sketchfab.com/models/e2d0f049776647298e9940c174ece807/embed"> 
+    </iframe> 
+    <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+    <a href="https://sketchfab.com/3d-models/pramy-e2d0f049776647298e9940c174ece807?utm_medium=embed&utm_campaign=share-popup&utm_content=e2d0f049776647298e9940c174ece807" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> PRAMY定妝噴霧 </a> by <a href="https://sketchfab.com/tinalai?utm_medium=embed&utm_campaign=share-popup&utm_content=e2d0f049776647298e9940c174ece807" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> tinalai </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=e2d0f049776647298e9940c174ece807" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+    
+
+</body>
+</html>
