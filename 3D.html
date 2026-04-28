@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Babylon.js 3D 模型展示</title>
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      font-family: "Microsoft JhengHei", Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      padding: 30px 20px 20px;
+      color: #333;
+      margin: 0;
+    }
+    .viewer-container {
+      max-width: 1200px;
+      margin: 0 auto 40px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+      overflow: hidden;
+    }
+    babylon-viewer {
+      width: 100%;
+      height: 700px;        /* 可以自行調整高度，例如 650px 或 800px */
+      display: block;
+      background: #111;
+    }
+    .description {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>我的 3D 模型展示 - Babylon Viewer</h1>
+
+  <div class="viewer-container">
+    <babylon-viewer 
+      source="https://raw.githubusercontent.com/tinalai0621/3D/main/3D.glb"
+      camera-auto-orbit="true"
+      environment="neutral"
+      exposure="1.1"
+      tone-mapping="aces"
+      camera-orbit="auto">
+    </babylon-viewer>
+  </div>
+
+  
+  <script type="module" 
+    src="https://cdn.jsdelivr.net/npm/@babylonjs/viewer/dist/babylon-viewer.esm.min.js">
+  </script>
+
+</body>
+</html>
