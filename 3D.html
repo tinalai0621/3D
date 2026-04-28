@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Babylon.js 3D 模型展示</title>
+  <title>我的 3D 模型展示</title>
   
   <style>
     body {
@@ -28,7 +28,7 @@
     }
     babylon-viewer {
       width: 100%;
-      height: 700px;        /* 可以自行調整高度，例如 650px 或 800px */
+      height: 700px;
       display: block;
       background: #111;
     }
@@ -45,14 +45,14 @@
 
   <div class="viewer-container">
     <babylon-viewer 
-      source="https://raw.githubusercontent.com/tinalai0621/3D/main/3D.glb"
+      source="https://tinalai0621.github.io/3D/3D.glb"   <!-- 改用 GitHub Pages 網址 -->
       camera-auto-orbit="true"
       environment="neutral"
-      exposure="1.0">
+      exposure="1.0"
+      enable-anti-aliasing="true">
     </babylon-viewer>
   </div>
 
-  
   <script type="module" 
     src="https://cdn.jsdelivr.net/npm/@babylonjs/viewer/dist/babylon-viewer.esm.min.js">
   </script>
